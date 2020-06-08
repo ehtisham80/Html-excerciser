@@ -1,0 +1,66 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="topnav">
+            <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
+            <a class="active" href="index.html">Home</a>
+            <a href="all-beers.html">See All Beers</a>
+            <a href="order.html">Order A Beer</a>
+            <a class="right" href="register.html">Register</a>
+            <a class="right" href="login.html">Login</a>
+
+        </div>
+    </nav>
+    <main>
+        <center>
+            <h1>Order</h1>
+
+            <form action="">
+                <label for="">Brand</label>
+                <select name="" id="">
+                    <option value="">Corona Extra 330ml</option>
+                    <option value="">Stella Artios 400ml</option>
+                    <option value="">Harbin 200ml</option>
+                    <option value="">Heinken 330ml</option>
+                </select>
+                <label for="">Quantity</label>
+                <input type="number" min="1" max="15" placeholder="Enter amount of Beers (1-15)">
+
+                <label for="">Select Destination</label>
+                <select name="" id="">
+                    <option value="">Stockholm Sveavagen 30</option>
+                    <option value="">Göteborg Storavägen 50</option>
+                    <option value="">Mälmo industrivägen 15</option>
+                </select>
+                <label for="">Enter your birth date</label>
+                <input type="date" id="birthday" name="birthday">
+
+                <label for="">Got an option, comment, recomendations? Share it with us!</label>
+                <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+                <br>
+                <input type="submit" name="Submit" id="submit" value="Submit">
+                <input type="Reset" name="Reset" id="Reset" value="Reset">
+
+
+            </form>
+        </center>
+
+    </main>
+    <footer>
+        <hr />
+        <p><em>&copy; 2020 &ndash; Beer Store </em></p>
+    </footer>
+</body>
+
+</html>
